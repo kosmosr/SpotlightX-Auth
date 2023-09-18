@@ -1,0 +1,20 @@
+{
+  "appTitle": {
+    "message": "SpotlightX授权登录"
+  },
+  "mainDescription": {
+    "message": "这个插件主要用于获取当前推特登录用户的信息，并授权给SpotlightX-App使用"
+  },
+  "version": {
+    "message": "v1.0"
+  },
+  "description": {
+    "message": "这个插件主要用于获取当前推特登录用户的信息，并授权给SpotlightX-App使用，整个用户信息只通过二维码传递，不会经过任何服务器，请放心使用"
+  },
+  "btnGetUser": {
+    "message": "获取当前用户"
+  },
+  "scanQR": {
+    "message": "请打开APP扫码"
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(249,250,251);
+            width: 368px;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            color: rgb(52, 58, 77);
+            padding: 16px;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            border-bottom-color: rgb(219,226,240);
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .description {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-bottom-color: rgb(219,226,240);
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+        }
+        .auth {
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        #qrcodeModal {
+            display: none;
+        }
+
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="header">
+    <div class="title" data-i18n="appTitle"></div>
+    <div data-i18n="version"></div>
+</div>
+<div class="description">
+    <span data-i18n="description"></span>
+</div>
+<div class="auth">
+    <button type="button" id="auth" class="btn btn-primary" data-i18n="btnGetUser"></button>
+</div>
+
+<div id="qrcodeModal">
+    <div id="qrcodeContent">
+        <div style="color: #dc3545" data-i18n="scanQR"></div>
+        <div id="qrcode" style="width:200px; height:200px; margin-top:15px;"></div>
+    </div>
+</div>
+<script src="bootstrap.min.js"></script>
+<script src="qrcode.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

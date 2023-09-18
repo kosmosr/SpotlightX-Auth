@@ -1,0 +1,20 @@
+{
+  "appTitle": {
+    "message": "SpotlightX Authentication Login"
+  },
+  "mainDescription": {
+    "message": "This extension is mainly used to obtain the information of the currently logged-in Twitter user and authorize it for SpotlightX-App"
+  },
+  "version": {
+    "message": "v1.0"
+  },
+  "description": {
+    "message": "This extension is mainly used to obtain the information of the currently logged-in Twitter user and authorize it for SpotlightX-App. The user information is only transmitted through a QR code and will not go through any server. Please use it with confidence."
+  },
+  "btnGetUser": {
+    "message": "Get Current User"
+  },
+  "scanQR": {
+    "message": "Please scan the QR code with the APP"
+  }
+}
